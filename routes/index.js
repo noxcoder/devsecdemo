@@ -4,7 +4,7 @@ const controller = require('../controller');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'DevSecBootCampDemo' });
 });
 
 router.post('/addproduct', controller.addProduct);
