@@ -11,4 +11,6 @@ router.post('/addproduct', controller.addProduct);
 
 router.get('/getproducts', controller.getProducts);
 
+router.post('/purchase', controller.purchaseProduct);
+
 module.exports = router;
